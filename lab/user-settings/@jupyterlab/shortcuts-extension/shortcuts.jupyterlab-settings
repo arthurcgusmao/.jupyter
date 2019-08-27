@@ -1,0 +1,162 @@
+{
+    "shortcuts": [
+        // Move cell up/down
+        {
+            "command": "notebook:move-cell-up",
+            "keys": [
+                "Alt ArrowUp"
+            ],
+            "selector": ".jp-Notebook:focus"
+        },
+        {
+            "command": "notebook:move-cell-down",
+            "keys": [
+                "Alt ArrowDown"
+            ],
+            "selector": ".jp-Notebook:focus"
+        },
+        // Run command palette
+        {
+            "command": "apputils:activate-command-palette",
+            "keys": [
+                "Alt X"
+            ],
+            "selector": "body"
+        },
+        // Toggle left bar
+        {
+            "command": "application:toggle-left-area",
+            "keys": [
+                "Alt F"
+            ],
+            "selector": "body"
+        },
+        {
+            "command": "application:toggle-left-area",
+            "keys": [
+                "Alt Shift F"
+            ],
+            "selector": "body"
+        },
+        // Autocomplete Select
+//         {
+//             "command": "completer:select",
+//             "keys": [
+//                 "Tab"
+//             ],
+//             "selector": "body"
+//         },
+        // Enter edit cell mode
+        {
+            "command": "notebook:enter-edit-mode",
+            "keys": ["E"],
+            "selector": ".jp-Notebook:focus"
+        },
+        // Move between tabs
+        {
+            "command": "tabsmenu:activate-previously-used-tab",
+            "keys": ["Ctrl `"], // not working
+            "selector": ".jp-Notebook:focus"
+        },
+        
+
+        // //                       // //
+        // //   LIBERATE commands   // //
+        // //                       // //
+        
+        // Smart escape
+        {
+            "command": "liberate:smart-escape",
+            "keys": ["Escape"],
+            "selector": ".CodeMirror-focused"
+        },
+        // Add multiple cursors up/down
+        {
+            "command": "liberate:add-cursor-to-prev-line",
+            "keys": ["Ctrl Alt ArrowUp"],
+            "selector": ".CodeMirror-focused",
+        },
+        {
+            "command": "liberate:add-cursor-to-next-line",
+            "keys": ["Ctrl Alt ArrowDown"],
+            "selector": ".CodeMirror-focused",
+        },
+        // Split selection by line
+//         {
+//             "command": "liberate:split-selection-by-line",
+//             "keys": ["Shift Ctrl L"],
+//             "selector": ".CodeMirror-focused",
+//         },
+        // Go to bracket
+//         {
+//             "command": "liberate:go-to-bracket",
+//             "keys": ["Ctrl M"],
+//             "selector": ".CodeMirror-focused",
+//         },
+        // Select next occurrence
+        {
+            "command": "liberate:select-next-occurrence",
+            "keys": ["Ctrl D"],
+            "selector": ".CodeMirror-focused",
+        },
+        // Join lines below/above
+        {
+            "command": "liberate:join-lines",
+            "keys": ["Ctrl J"],
+            "selector": ".CodeMirror-focused",
+        },
+        {
+            "command": "liberate:join-lines-above",
+            "keys": ["Shift Ctrl J"],
+            "selector": ".CodeMirror-focused",
+        },
+        // Move lines up/down
+        {
+            "command": "liberate:move-line-up",
+            "keys": ["Alt ArrowUp"],
+            "selector": ".CodeMirror-focused",
+        },
+        {
+            "command": "liberate:move-line-down",
+            "keys": ["Alt ArrowDown"],
+            "selector": ".CodeMirror-focused",
+        },
+        // Jump paragraph up/down
+        {
+            "command": "liberate:jump-paragraph-up",
+            "keys": ["Ctrl ArrowUp"],
+            "selector": ".CodeMirror-focused",
+        },
+        {
+            "command": "liberate:jump-paragraph-down",
+            "keys": ["Ctrl ArrowDown"],
+            "selector": ".CodeMirror-focused",
+        },
+        // Insert line after/before
+        {
+            "command": "liberate:insert-line-after",
+            "keys": ["Ctrl Enter"],
+            "selector": ".CodeMirror-focused",
+        },
+        {
+            "command": "liberate:insert-line-before",
+            "keys": ["Shift Ctrl Enter"],
+            "selector": ".CodeMirror-focused",
+        },
+        // Run cell w/ Alt to free up Ctrl
+        {
+            "command": "notebook:run-cell",
+            "keys": [
+                "Alt Enter"
+            ],
+            "selector": ".jp-Notebook:focus"
+        },
+        {
+            "command": "notebook:run-cell",
+            "keys": [
+                "Alt Enter"
+            ],
+            "selector": ".jp-Notebook.jp-mod-editMode"
+        },
+    ]
+}
